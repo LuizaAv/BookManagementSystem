@@ -10,12 +10,11 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write ."
   },
-  
+
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint"
     }
-
   },
   "dependencies": {
     "next": "14.2.3",
