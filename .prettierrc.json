@@ -1,0 +1,22 @@
+{
+  "printWidth": 80,
+  "endOfLine": "lf",
+  "arrowParens": "avoid",
+  "trailingComma": "es5",
+  "semi": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "importOrder": [
+    "^react(.*)$",
+    "^@/components/(.*)$",
+    "^@/utils/(.*)$",
+    "^@/(.*)$",
+    "^[./]",
+    "^[../]"
+  ],
+  "importOrderSeparation": true,
+  "experimentalBabelParserPluginsList": ["jsx", "typescript"]
+}
